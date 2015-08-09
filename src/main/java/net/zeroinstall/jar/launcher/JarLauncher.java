@@ -1,4 +1,4 @@
-package de.nanobyte.jar;
+package net.zeroinstall.jar.launcher;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
