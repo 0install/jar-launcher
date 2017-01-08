@@ -8,15 +8,15 @@ Workaround for java -classpath ... -jar ... which does not work.</description>
 
   <feed-for interface="http://0install.de/feeds/jar-launcher.xml" />
 
-  <implementation version="1.0-pre" stability="stable" id="1.0-SNAPSHOT" local-path="target">
+  <implementation version="1.0" stability="stable" id="1.0" local-path="target">
     <command name="run">
-      <environment name="CLASSPATH" insert="jar-launcher-1.0-SNAPSHOT.jar" />
+      <environment name="CLASSPATH" insert="jar-launcher-1.0.jar" />
       <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run">
         <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
       </runner>
     </command>
     <command name="run-gui">
-      <environment name="CLASSPATH" insert="jar-launcher-1.0-SNAPSHOT.jar" />
+      <environment name="CLASSPATH" insert="jar-launcher-1.0.jar" />
       <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="run-gui">
         <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
       </runner>
