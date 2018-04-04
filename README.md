@@ -1,4 +1,4 @@
-jar-launcher
+JAR Launcher
 ============
 
 A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
