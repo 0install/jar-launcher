@@ -6,9 +6,7 @@ Workaround for `java -classpath ... -jar ...` which does not work.
 
 This is useful for injecting dependencies at runtime, e.g. when using [Zero Install](http://0install.net/).
 
-CI Builds:  
-[![Windows](https://img.shields.io/appveyor/ci/0install/jar-launcher.svg?label=Windows)](https://ci.appveyor.com/project/0install/jar-launcher)
-[![Linux](https://img.shields.io/travis/0install/jar-launcher.svg?label=Linux)](https://travis-ci.org/0install/jar-launcher)
+[![Build status](https://img.shields.io/appveyor/ci/0install/jar-launcher.svg)](https://ci.appveyor.com/project/0install/jar-launcher)
 
 Building
 --------

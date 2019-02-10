@@ -1,3 +1,19 @@
+image:
+- Visual Studio 2017
+- Ubuntu
+
+for:
+  - matrix:
+      only:
+        - image: Visual Studio 2017
+    cache:
+      - '%USERPROFILE%\.m2 -> **\pom.xml'
+  - matrix:
+      only:
+        - image: Ubuntu
+    cache:
+      - '$HOME/.m2 -> **/pom.xml'
+
 build_script:
   - mvn package
 
